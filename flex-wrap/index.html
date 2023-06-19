@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Define se os itens devem quebrar ou não a linha. Por padrão eles não quebram linha, isso faz com que os flex itens sejam compactados além do limite do conteúdo.
+
+        Essa é geralmente uma propriedade que é quase sempre definida como flex-wrap: wrap; Pois assim quando um dos flex itens atinge o limite do conteúdo, o último item passa para a coluna debaixo e assim por diante.</h1>
+    <h1>flex-wrap: nowrap;</h1>
+    <section class="container nowrap">
+        <div class="item">TesteDoItem1</div>
+        <div class="item">TesteDoItem2</div>
+        <div class="item">TesteDoItem3</div>
+        <div class="item">TesteDoItem4</div>
+    </section>
+    <h1>flex-wrap: wrap;</h1>
+    <section class="container wrap">
+        <div class="item">TesteDoItem1</div>
+        <div class="item">TesteDoItem2</div>
+        <div class="item">TesteDoItem3</div>
+    </section>
+    <h1>flex-wrap: wrap-reverse;</h1>
+    <section class="container wrap-reverse">
+        <div class="item">TesteDoItem1</div>
+        <div class="item">TesteDoItem2</div>
+        <div class="item">TesteDoItem3</div>
+    </section>
+</body>
+</html>
