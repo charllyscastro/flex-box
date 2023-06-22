@@ -1,21 +1,26 @@
 .stretch {
 	align-items: stretch;
+	/* Valor padrão, ele que faz com que os flex itens cresçam igualmente */
 }
 
 .flex-start {
 	align-items: flex-start;
+	/* Alinha os itens ao início */
 }
 
 .flex-end {
 	align-items: flex-end;
+	/* Alinha os itens ao final */
 }
 
 .center {
 	align-items: center;
+	/* Alinha os itens ao centro */
 }
 
 .baseline {
 	align-items: baseline;
+	/* Alinha os itens de acordo com a lina base da tipografia */
 }
 
 /* Flex Container */
